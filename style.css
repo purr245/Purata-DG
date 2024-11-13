@@ -1,52 +1,122 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-image: url(anu.jpg);
-    height: 450px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center -100px;
+  background-image: url(anu.jpg);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -100px;
+}
+body {
+  background-color: black;
+  color: white;
 }
 
 a {
-    background-color: aliceblue;
-    color: black;
-    text-decoration: none;
-    text-shadow: 10px;
-    font-size: 120%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 5px;
+  background-color: aliceblue;
+  color: black;
+  text-decoration: none;
+  text-shadow: 10px;
+  font-size: 100%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 5px;
 }
 
 nav {
-    text-align: center;
+  text-align: center;
 }
 
-.text  {
-    color: aliceblue;
-    padding-top: 350px;
-    font-size: 100%;
+.text {
+  color: aliceblue;
+  padding-top: 350px;
+  font-size: 100%;
+  font-weight: 800;
+  padding-left: 3%;
 }
 
 #about {
-    padding-top: 50px;
-    font-size: larger;
+  padding-top: 90px;
+  font-size: larger;
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.img1 {
+  position: relative;
+  left: 5%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.about {
+  position: relative;
+  padding: 2%;
+  left: 8%;
+  bottom: 10%s;
+}
+
+.hai {
+  width: 75%;
 }
 
 #favorite {
-    padding-top: 50px;
-    font-size: larger;
+  padding-top: 10%;
+  font-size: larger;
+  text-align: left;
+  display: flex;
+  position: relative;
+}
+
+.img2 {
+  position: relative;
+  left: 5%;
+  width: 35%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.fav {
+  position: relative;
+  padding: 4%;
+  left: 6%;
+}
+
+.list-fav {
+  position: relative;
+  left: 10%;
 }
 
 #contact {
-    padding-top: 50px;
-    font-size: larger;
+  padding-top: 70px;
+  font-size: larger;
+  text-align: left;
+  display: flex;
+}
+
+.map {
+  position: relative;
+  margin: 5%;
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 35%;
+}
+
+.info {
+  position: relative;
+  margin: 5%;
+  left: -4%;
+  bottom: -70px;
 }
 
 #footer {
-    padding-top: 50px;
-    font-style: oblique;
+  padding-top: 50px;
+  font-style: oblique;
+  text-align: center;
+  position: relative;
 }
